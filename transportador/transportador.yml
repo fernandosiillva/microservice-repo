@@ -1,0 +1,11 @@
+spring:  
+  datasource:
+    password: 12345
+    url: jdbc:mysql://127.0.0.1:3306/transportador?useTimezone=true&serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
